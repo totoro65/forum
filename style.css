@@ -11,7 +11,7 @@ header {
 font-family: 'Orbitron', sans-serif;
 color: white;
  background-image: src('');
- background-color:blue;
+ background-color:#e09ef5;
 
 }
 
@@ -46,7 +46,7 @@ label{
     border-style: dotted; border-color: blue;
     background-image:url('');
     color:white;
-    background-color:blue;
+    background-color:#e09ef5;
 
 }
 .validation{
