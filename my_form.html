@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<html lang="fr">
+    <head>
+        <meta charset = "utf-8">
+        <title>My Form</title>
+        <link rel="stylesheet" href="my_form.css">
+    </head>
+    
+    <body>
+        <h1>FORMULAIRE</h1>
+        <form action="/my_form" method ="post">
+            <div class="form-a">
+                <label for="radio">Sexe:</label>
+                <input type="radio" name ="sexe" value="Homme">Homme
+                <input type="radio" name ="sexe" value="Femme">Femme
+                <input type="radio" name ="sexe" value="Autre">Autre
+            </div>
+            <div>
+                <label for="Civilite">Civilite:</label>
+                <select name="Civilite" onchange="updated(this)">
+                <option value="1">M.</option>
+                <option value="1">Mme.</option>
+                </select>
+            </div>
+            <div>
+                <label for="name">Nom (minimun 2 caractère):</label>
+                <input type="text" id="name" required minlength="2" maxlength="8" size ="8" placeholder="Julien">
+            </div>
+            <div class="form-a">
+                <label for="email">Entrer votre adresse e-mail :</label>
+                <input type="email" id="email" size ="30" required placeholder="exemple@gmail.com"> 
+            </div>
+            <div>
+                <label for="tel">Entrer votre numéro de télephone:</label>
+                <input type="tel" id="Télephone" name="Télephone"
+                pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" required placeholder="06 48 76 95 11">
+            </div>
+            <div>
+                <label for="website">Entrer un URL</label>
+                <input type="url" name="website" id="website" placeholder="https://''exemple''.com" pattern="https://.*" size="30" required>
+            </div>
+            <div class="form-a">
+                <label for="Date">Date de naissance:</label>
+                <input type="date" id="Date de naissance" name="date" value="2021-11-10" min="1900-01-01" max="2021-12-12">
+            </div>
+            
+            <input type="hidden" id="tokken" name="tokken" value="My first web site">
+                <div class=validation>
+                    <input type="submit" value="validation">
+                </div>
+        </form>
+    </body>
+</html>
+
