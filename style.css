@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
 header {
-
+font-family: 'Orbitron', sans-serif;
 
 }
 
@@ -13,6 +13,7 @@ h1{
 }
 .body {
     font-size: 12px;
+    font-family: 'Orbitron', sans-serif;
     background-image: url("");
 
 }
@@ -38,7 +39,7 @@ label{
 }
 
 input:hover {
-    color: orange;
+    color: green;
     background-color: black;
     transition: 1,5s;
 }
