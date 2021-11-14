@@ -6,7 +6,7 @@ h1{
 .body {
     font-size: 12px;
     background-image: url("t%C3%A9l%C3%A9charger%20(20).jpg");
-
+    font-family: 'Orbitron', sans-serif;
 }
 
 .input{
@@ -17,6 +17,7 @@ label{
     text-align:left;
     width : 150px;
     display: inline-block;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .form-a{
