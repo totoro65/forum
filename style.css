@@ -38,12 +38,14 @@ label{
     text-align:left;
     width : 150px;
     display: inline-block;
+    color:white;
 }
 
 .form-a{
     border-radius:2px; 
     border-style: dotted; border-color: blue;
-    background-image:url('t%C3%A9l%C3%A9charger%20(22).jpg');
+    background-image:url('');
+    color:white;
 
 }
 .validation{
