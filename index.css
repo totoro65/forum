@@ -42,7 +42,7 @@ label{
 
 input:hover {
     color: green;
-    background-color: black;
+    background-color:none;
     transition: 1,5s;
 }
 div{
