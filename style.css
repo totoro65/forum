@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
+
+.btn-lg
+{
+  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+}
+
+
 header {
 font-family: 'Orbitron', sans-serif;
 color: white;
