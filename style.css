@@ -10,7 +10,7 @@
 header {
 font-family: 'Orbitron', sans-serif;
 color: white;
- background-image: url('t%C3%A9l%C3%A9charger%20(22).jpg');
+ background-image: src('t%C3%A9l%C3%A9charger%20(22).jpg');
 
 }
 
